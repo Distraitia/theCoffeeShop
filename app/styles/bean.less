@@ -1,0 +1,97 @@
+#beansContainer {
+	background: @primaryColor;
+	border-radius: 10px;
+	box-sizing: border-box;
+	padding: 22px;
+	width: 970px;
+	margin: 0 auto;
+	color: #000;
+	margin-bottom: 42px;
+
+	.beanDetails {
+		width: 528px;
+		float: right; 
+		font-size: 12px;
+		font-family: @normalFont;
+
+		h2 {
+			color: @tertiaryColor;
+			font-size: 24px; 
+			text-align: left;
+		}
+
+		hr {
+			border-color: @tertiaryColor;
+			margin: 0 0 5px 0; 
+		}
+
+		span {
+			color: @tertiaryColor;
+			font-size: 16px;
+
+			&#stars {
+				margin-left: 210px;
+			}
+		}
+
+		p {
+			margin: 10px 0;
+		}
+
+		.shopButtons {
+			clear: both;
+			margin: 0 0 15px 0;
+
+			button {
+				background: #fff;
+				font-family: @normalFont;
+				font-size: 16px;
+				border: 1px solid #c8c8c8;
+				float: left;
+				// padding: 8px 17px;
+				height: 38px;
+
+				&#cart {
+					border-radius: 5px 0 0 5px;
+					border-right: none;
+					width: 128px;
+				}
+				&#checkout {
+					border-radius: 0 5px 5px 0;
+					width: 112px;
+				}
+			}
+		}
+
+		.nav-tabs > li.active > a {
+			color: #000;
+		}
+		
+		.nav-tabs {
+			clear: both;
+		}
+
+		ul li {
+			font-size: 12px;
+
+			a {
+				color: @tertiaryColor;
+				padding: 5px 10px;
+			}
+		}
+
+		.tab-pane {
+			box-sizing: border-box;
+			padding-top: 10px;
+			border-top: 1px solid #fff;
+		}
+	}
+}
+
+.breadcrumb {
+	background: none;
+
+	a {
+		color: @tertiaryColor;
+	}
+}

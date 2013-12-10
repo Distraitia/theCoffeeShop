@@ -6,6 +6,7 @@
 
 @primaryColor: #e9dbd0;
 @accentColor: #bf9280;
+@tertiaryColor: #80533e;
 
 @logoFont: 		'Lobster', cursive;
 @headersFont: 	'Holtwood One SC', serif;
@@ -18,6 +19,9 @@
 @import "footer";
 @import "carousel";
 @import "coffee-menu";
+@import "store";
+@import "bean";
+
 
 ul {
 	list-style-type: none;
@@ -37,4 +41,15 @@ ul {
 
 hr {
 	border-color: @primaryColor;
+}
+
+.clearfix:before, .clearfix:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+	
+.clearfix:after {
+	clear: both;
 }

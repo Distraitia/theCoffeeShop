@@ -1,0 +1,32 @@
+header {
+	position: relative;
+
+	nav {
+		position: absolute;
+		bottom: 0%;
+		right: 0%;
+		
+		ul {
+			margin-bottom: 0;
+		}
+
+		li {
+			display: inline;
+		}
+
+		a {
+			font-size: 1em;
+			padding: 5px;
+			color: @accentColor;
+			text-decoration: none;
+			font-family: @normalFont;
+			display: inline-block;
+
+			&:hover {
+				color: @primaryColor;
+				text-decoration: none;
+			}
+		}
+	}
+}
+

@@ -122,6 +122,11 @@ AddType text/vtt                            vtt
 AddType text/x-component                    htc
 AddType text/x-vcard                        vcf
 
+AddType text/html .shtml
+AddHandler server-parsed .shtml
+AddHandler server-parsed .html
+Options Indexes FollowSymlinks Includes
+
 
 # ----------------------------------------------------------------------
 # Allow concatenation from within specific js and css files
